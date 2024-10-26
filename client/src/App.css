@@ -1,0 +1,24 @@
+.weather-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.city-weather-card, .settings-panel {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 8px;
+  width: 200px;
+  text-align: center;
+}
+
+.charts {
+  width: 80%;
+  margin: 20px auto;
+}
